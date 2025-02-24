@@ -1,0 +1,14 @@
+.gradient-name {
+    background-image: linear-gradient(to right, #FC1500, #FF5733, #FFC300);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .gradient-designation {
+    background-image: linear-gradient(to right, #3F926B, #28B4A5, #52CDB1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
