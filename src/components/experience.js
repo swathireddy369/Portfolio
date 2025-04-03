@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 import './experience.css';
-import kollabioLogo from '../img/Kollabio-full-logo-color-transparent.png';
-import CitiLogo from '../img/citilogo.png';
-import suLogo from '../img/suLogo.jpg';
-import CBLogo from '../img/careerbridge_it_solutions_llc_logo.jpg';
+
 import University_of_Bridgeport from '../img/University_of_Bridgeport.png';
 import suraaga_logo from "../img/suraaga_logo.png";
 import envision from "../img/envision.png"

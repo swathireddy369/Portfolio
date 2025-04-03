@@ -1,6 +1,6 @@
 
-import { ImLinkedin,ImWhatsapp,ImGithub} from "react-icons/im";
-import {SiGmail, SiBlogger, SiMedium} from "react-icons/si";
+import { ImLinkedin,ImGithub} from "react-icons/im";
+import {SiGmail} from "react-icons/si";
 import './contact.css'
 const Contact = () => {
     return ( 

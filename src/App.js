@@ -6,12 +6,11 @@ import Experience from './components/experience';
 import Project from './components/project';
 import Skill from './components/skill';
 import ParticleBackground from './components/ParticleBackground';
-import Blog from './components/blogs';
-import Loading from './components/loading';
-import Events from './components/events';
+
 import { useState, useEffect } from 'react';
 
 function App() {
+  // eslint-disable-next-line no-unused-vars
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
