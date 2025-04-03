@@ -1,3 +1,5 @@
+/* App.css */
+
 .App {
   text-align: center;
 }
@@ -34,5 +36,41 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Additional Responsive Styles */
+@media (max-width: 1024px) {
+  .App-header {
+    font-size: calc(9px + 2vmin);
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding: 10px;
+  }
+
+  .App-header {
+    font-size: calc(8px + 2vmin);
+  }
+
+  .App-logo {
+    height: 30vmin;
+  }
+}
+
+@media (max-width: 480px) {
+  .App-header {
+    font-size: calc(7px + 2vmin);
+    padding: 20px;
+  }
+
+  .App-logo {
+    height: 25vmin;
+  }
+
+  .App {
+    padding: 20px;
   }
 }
