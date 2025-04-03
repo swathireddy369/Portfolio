@@ -144,7 +144,7 @@ const iconData = [
 const icons = iconData.map(({ name, icon }) => (
   <a
     key={name}
-    href="#"
+    href="#/"
     onClick={(e) => e.preventDefault()}
     className="icon-with-label"
     title={name}
