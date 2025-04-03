@@ -1,106 +1,50 @@
-/* General Contact Styles */
-.contact {
+.contact{
     text-align: center;
 }
-
-/* Contact Item Styles */
-.item {
+.item{
     text-align: center;
     padding: 35px;
     margin-bottom: 2px;
     margin-top: 100px;
 }
-
-/* WhatsApp Icon Styles */
-.wp {
+.wp{
     padding: 20px;
     transition: 0.8s;
 }
-
-.wp:hover {
+.wp:hover{
     color: orange;
     padding: 30px;
     transform: scale(1.3);
 }
-
-/* LinkedIn Icon Styles */
-.li {
+.li{
     padding: 25px;
     transition: 0.8s;
 }
-
-.li:hover {
+.li:hover{
     color: blue;
     padding: 30px;
     transform: scale(1.3);
 }
 
-.md {
-    padding: 25px;
-    transition: 0.8s;
-}
-
-.md:hover{
-    color: black;
-    padding: 30px;
-    transform: scale(1.3);
-}
-/* General Button Styles */
-.gh {
+.gb{
     padding: 20px;
     transition: 0.8s;
 }
-
-.gh:hover {
-    color: black;
+.gb:hover{
+    color: rgb(72, 8, 72);
     padding: 30px;
     transform: scale(1.3);
 }
-
-/* Gmail Icon Styles */
-.gm {
+.gm{
     padding: 20px;
     transition: 0.8s;
 }
-
-.gm:hover {
+.gm:hover{
     color: crimson;
     padding: 30px;
     transform: scale(1.3);
 }
 
-/* Source Link Hover Styles */
-.source a:hover {
-    color: rgb(227, 157, 127);
-}
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-    .item {
-        padding: 25px;
-        margin-top: 50px;
-    }
-
-    .wp, .li, .gb, .gm , .md{
-        padding: 15px;
-    }
-
-    .wp:hover, .li:hover, .gb:hover, .gm:hover, .md:hover {
-        padding: 20px;
-    }
-}
-
-@media (max-width: 480px) {
-    .item {
-        padding: 15px;
-        margin-top: 30px;
-    }
-
-    .wp, .li, .gb, .gm, .md {
-        padding: 10px;
-    }
-
-    .wp:hover, .li:hover, .gb:hover, .gm:hover, .md:hover {
-        padding: 15px;
-    }
+.source a:hover{
+    color: rgb(227, 157, 127);;
 }
